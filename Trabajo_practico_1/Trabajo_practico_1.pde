@@ -3,7 +3,7 @@ void setup() {
   size(800, 400);
   miImagen = loadImage ("Durero.jpg");
 }
-
+//Marco Bianchini 122611/0
 void draw() {
   background(0);
   image(miImagen, 0, 0, 400, 400);
@@ -89,8 +89,8 @@ line(695,65,725,220);
   
 
   
-  fill( 245);
-  textSize(40);
-  text( mouseX + " - " + mouseY, mouseX, mouseY);
-  println(mouseX + " - " + mouseY);
+ //fill( 245);
+  //textSize(40);
+  //text( mouseX + " - " + mouseY, mouseX, mouseY);
+  //println(mouseX + " - " + mouseY);
 }
