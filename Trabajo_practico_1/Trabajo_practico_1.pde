@@ -30,6 +30,9 @@ void draw() {
   vertex(635,306);
   endShape();
   stroke(0);
+  square(519,369,50);
+  rect(488,217,40,210,36);
+  
   //cabeza y cara
   fill(#FDDDCA);
  
@@ -86,11 +89,13 @@ line(695,65,725,220);
  line(695,65,765,220); 
  line(695,65,775,220);
   line(695,65,785,220);
-  
+  //mano
+  fill(#FDDDCA);
+  rect(568,370,40,40,30);
+ellipse(594,370,30,5);
+  ellipse(609,378,30,5);
+  ellipse(609,383,30,5);
+  ellipse(609,389,30,5);
+  ellipse(609,394,30,5);
 
-  
- //fill( 245);
-  //textSize(40);
-  //text( mouseX + " - " + mouseY, mouseX, mouseY);
-  //println(mouseX + " - " + mouseY);
 }
